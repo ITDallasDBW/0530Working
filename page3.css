@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Page around 950px wide...gQkmRz*/
+.holder {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 12rem;
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-left: 2rem;
+    font-weight: 500;
+}
+
+button {
+    position: absolute;
+    /* margin-top: .5rem; */
+    /* margin-bottom: .5rem; */
+    width: 10rem;
+    line-height: 1;
+    right: 0;
+    bottom: 0;
+    margin-right: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: rgb(100, 21, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    color: rgb(247, 250, 252);
+}
+
+
+/* .gQkmRz input {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        padding-right: 12rem;
+    }
+.gQkmRz input {
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+        position: absolute;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        width: 10rem;
+        line-height: 1;
+    }
+    .gQkmRz button {
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: flex
+;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+<style>
+button, [role="button"] {
+    cursor: pointer;
+} */
