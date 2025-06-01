@@ -1,0 +1,20 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+ul {
+    border: 2px greenyellow dashed;
+    width: 400px;
+}
+li {
+    border: 1px black solid;
+    width: 300px;
+}
+
+img {
+    width: 200px;
+}
+span {
+    width: 200px;
+}

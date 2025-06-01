@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>0530working</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    Module1: The Foundations
-    2.0 CSS Crash Course
-    2.6 Complex Properties
-    Display v Block
-    Block: Takes 100% of width, starts on a new line (p, div tags)
-    Inline: Doesn't allow you to set width or height, starts on same line (span, img)
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <p>Module 1: The Foundations, 2.0 CSS Crash Course, 2.6 Complex Properties</p>
+    <div>
+    <ul>
 
-</body>
+      <li>Display v Block</li>
+      <ul>
+        <li>Block: Takes 100% of width, starts on a new line (p, div tags)</li>
+        <li>
+          Inline: Doesn't allow you to set width or height, starts on same line
+          (span, img)...except it seems like an img DOES allow w/h to be set.
+          <li>This is a 300px li with image set at 200px (PASS):
+          <img src="./assets/TrustedCustomers.png" alt=""></li>
+          <li>This is a <span>span</span> at 200px (FAIL).</li>
+          <li>    <p>This is a paragraph<img src="./assets/ladyAtDeskHangParka.svg" alt=""> with an image inside set at 200px.</p></li>
+    <li><p>This is a p with a <p>paragraph inside.</p>(PASS)</p></li>
+        </li>
+      </ul>
+      <li>Position: Static, Relative, Absolute</li>
+      <ul>
+        <li>Static (default): Follows normal flow of the page</li>
+        <li>Relative</li>
+        <ul>
+          <li>Same as Static BUT:</li>
+          <li>Allows position: top, left, bottom, right</li>
+        </ul>
+        <li>Absolute</li>
+      </ul>
+    </ul>
+
+
+
+
+
+
+
+
+    </div>
+  </body>
 </html>
