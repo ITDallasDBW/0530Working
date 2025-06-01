@@ -31,16 +31,13 @@
   justify-content: space-between;
   align-items: center;
   margin: 12px;
-  padding-left: 6px;
-  /* width: 50%; */
+  padding-left: 12px;
   max-width: 28rem;
 }
-.outside {
-    width: ;
-}
 input {
-    width: 200px;
-    border: 0;
+  width: 200px;
+  border: 0;
+  outline-width: 0;
 }
 .inside {
   background-color: blue;
@@ -53,10 +50,29 @@ input {
   justify-content: center;
 }
 
-
-/* .outside {
-    width: 400px;
-    text-align: center;
-    border-radius: 7rem;
-    position: relative;
- } */
+.posBottom {
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+  padding: 12px;
+  max-width: 28rem;
+  position: relative;
+}
+.posInput {
+  border: 0;
+}
+.posInside {
+  position: absolute;
+  right: 0;
+  background-color: blue;
+  color: white;
+  width: 30%;
+  margin: 6px;
+  padding: 6px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
